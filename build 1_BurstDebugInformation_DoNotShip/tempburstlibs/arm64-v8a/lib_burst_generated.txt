@@ -145,6 +145,7 @@ Library: lib_burst_generated
 --compilation-defines=MODULE_PHYSICS_EXISTS
 --compilation-defines=MODULE_PHYSICS_2D_EXISTS
 --compilation-defines=MODULE_PARTICLE_SYSTEM_EXISTS
+--compilation-defines=USING_PARTICLE_SYSTEM
 --compilation-defines=INCLUDE_PHYSICS_MODULE
 --compilation-defines=INCLUDE_UGUI
 --compilation-defines=INCLUDE_INPUT_SYSTEM
@@ -167,7 +168,9 @@ Library: lib_burst_generated
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.Burst.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.Services.Core.Environments.dll
+--root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Poly2Tri.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.Services.Core.Internal.dll
+--root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.ProBuilder.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.XR.CoreUtils.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.Timeline.dll
@@ -177,6 +180,7 @@ Library: lib_burst_generated
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.Services.Core.Device.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.Services.Core.Analytics.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll
+--root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.ProBuilder.KdTree.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.Services.Core.Threading.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.Services.Core.Configuration.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll
@@ -185,8 +189,10 @@ Library: lib_burst_generated
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.Services.Core.Networking.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.Services.Core.Registration.dll
+--root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Csg.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.Subsystem.Registration.dll
+--root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.ProBuilder.Stl.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=/Users/chsgaming4/Documents/GitHub/MyGame/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll
