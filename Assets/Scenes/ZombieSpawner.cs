@@ -32,6 +32,12 @@ public class ZombieSpawner : MonoBehaviour
     {
         if (zombiePool.Count == 0) return;
         GameObject zombie = zombiePool.Dequeue();
-        zombie.transform.position = spawnLocation[Random]
+        zombie.transform.position = spawnLocation[Random.Range(0, spawnLocation.Length)].position;
+        zombie.SetActive(true);
+    }
+    public void ZombieDied(GameObject zombie)
+    {
+        zombie.SetActive(false);
+        zombiePool.Enqueue(zombie);
     }
 }
